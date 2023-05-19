@@ -24,7 +24,7 @@ spec:
         resources: {}
         volumeMounts:
           - name: data-disk
-            mountPath: /nexus-data
+            mountPath: /nexus/nexus-data
       volumes:
         - name: data-disk
           persistentVolumeClaim:

@@ -10,4 +10,5 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/Users/admin/Desktop/elkasaby/ITI/nexus/demo01/nexus-data"
+    # path: "/Users/admin/Desktop/elkasaby/ITI/nexus/demo01/nexus-data"
+    path: "/nexus/nexus-data"
